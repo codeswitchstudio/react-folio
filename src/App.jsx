@@ -1,8 +1,17 @@
-import HelloBootstrap from "./components/HelloBootstrap";
-
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
-  return <HelloBootstrap />;
+  return (
+    <div className="container-fluid">
+      <Navbar />
+      <Jumbotron />
+      <Card />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
