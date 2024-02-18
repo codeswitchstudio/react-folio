@@ -6,17 +6,26 @@
   color: white;
 }
 
+#biggest {
+  text-align: center;
+}
+
+#bigger {
+  text-align: center;
+}
+
+
 
 /* /* a:active {
   color: rgb(192, 237, 255);
 } */
 
 a:link {
-  color: white;
+  color: orange;
 }
 
 a:visited {
-  color: pink;
+  color: white;
 }
 
 /* a:hover {

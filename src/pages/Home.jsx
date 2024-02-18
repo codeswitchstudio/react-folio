@@ -7,9 +7,9 @@ import Col from '../components/Col';
 function Home() {
   return (
     <div>
-      <Hero backgroundImage="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e">
-        <h1>Codeswitch <br />Studio</h1>
-        <h2>A selection of projects</h2>
+      <Hero backgroundImage="https://codeswitchstudio.com/indicodes/images/hackamudra4.png">
+        <h1 id='biggest'>Indicodeswitch</h1>
+        <h2 id='bigger'>A selection of projects</h2>
       </Hero>
 
     </div>
