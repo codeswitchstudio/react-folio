@@ -3,12 +3,12 @@ import Row from '../components/Row';
 import Col from '../components/Col';
 
 
-function Discover() {
+function Contact() {
   return (
     <Container style={{ marginTop: 30 }}>
     <Row>
       <Col size="md-9">
-        <h1>GALLERY</h1>
+        <h1>CONTACT FORM</h1>
       </Col>
     </Row>
     <Row>
@@ -26,4 +26,4 @@ I like learning new things and exploring new places. I am happiest when working 
   );
 }
 
-export default Discover;
+export default Contact;

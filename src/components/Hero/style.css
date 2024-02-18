@@ -1,10 +1,11 @@
 .hero {
-  height: 600px;
+  height: 640px;
   background-size: cover;
-  background-position: right;
+  background-position: left;
   position: relative;
   margin-bottom: 0;
   margin-left: 0;
+}
 
 .hero::after {
   content: "";
@@ -15,7 +16,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
+  background: rgb(25, 18, 31);
 }
 
 .hero * {
@@ -24,13 +25,22 @@
 }
 
 .hero h1, .hero h2 {
-  color: green;
+  color: white;
 
 }
 
 .hero h1 {
-  font-size: 60px;
-  padding-top: 180px;
-  margin-top: 100px;
+  font-size: 72px;
+  font-weight: 700;
+  padding-top: 90px;
+  
+  
+}
+
+.hero h2 {
+
+  font-weight: 300;
+
+  
   
 }
