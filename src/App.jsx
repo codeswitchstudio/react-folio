@@ -1,16 +1,29 @@
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Discover from './pages/Discover';
+import Home from './pages/Home';
+import About from './pages/About';
+import Search from './pages/Search';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Wrapper from './components/Wrapper';
 
 function App() {
   return (
-    <div className="container-fluid">
-      <Navbar />
-      <Jumbotron />
-      <Card />
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/discover" element={<Discover/>} />
+            <Route path="/search" element={<Search/>} />
+          </Routes>
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
