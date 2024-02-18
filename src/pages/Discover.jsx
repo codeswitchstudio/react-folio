@@ -1,14 +1,14 @@
+import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
-
 
 function Discover() {
   return (
     <Container style={{ marginTop: 30 }}>
     <Row>
       <Col size="md-9">
-        <h1>GALLERY</h1>
+        <h1>Project Gallery</h1>
       </Col>
     </Row>
     <Row>

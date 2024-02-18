@@ -2,6 +2,7 @@
   height: 640px;
   background-size: cover;
   background-position: left;
+  background-repeat: no-repeat;
   position: relative;
   margin-bottom: 0;
   margin-left: 0;
@@ -43,4 +44,15 @@
 
   
   
+}
+
+
+.row {
+  margin-bottom: 50px;
+}
+
+
+.badge {
+  padding: 10px;
+  text-align: center;
 }
