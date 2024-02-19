@@ -1,0 +1,100 @@
+body {
+  font-family: "Alegreya", serif;
+}
+
+
+.hero {
+  height: 640px;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(25, 18, 31);
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+
+}
+
+.hero h1 {
+  font-size: 64px;
+  font-weight: 700;
+  padding-top: 130px;
+  font-family: "Alegreya", serif;
+}
+
+.hero h2 {
+  font-weight: 300;
+  font-size: 22px;
+}
+
+
+@media screen and (max-width: 550px) {
+  .hero h1 {
+    font-size: 30px;
+    padding-top: 300px;
+  }
+}
+
+
+@media screen and (max-width: 1437px) {
+  .hero h1 {
+    font-size: 55px;
+    padding-top: 250px;
+  }
+  .hero h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 1155px) {
+  .hero h1 {
+    font-size: 45px;
+    padding-top: 250px;
+  }
+  .hero h2 {
+    font-size: 20px;
+  }
+}
+
+.row {
+  margin-bottom: 50px;
+}
+
+
+.col {
+  padding-bottom: 20px;
+  text-align: center;
+  color: paleturquoise;
+  font-family: monospace;
+  font-size: smaller;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://codeswitchstudio.github.io/bootstrap-portfolio//images/rainbowMOSH.gif");
+}

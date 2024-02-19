@@ -1,5 +1,5 @@
 .footer {
-  min-height: 20px;
+  min-height: 50px;
   background-color: rgb(25, 18, 31);
   position: relative;
   color: white;
@@ -62,3 +62,4 @@ a:hover,
 a:active  {
   text-decoration: none;
 }
+
