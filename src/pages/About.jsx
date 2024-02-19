@@ -8,8 +8,14 @@ function About() {
     <Container style={{ marginTop: 30 }}>
     <Row>
       <Col size="md-9">
-        <h1>Indira Endaya runs Codeswitch Studio</h1>
+        <h1>Indira Endaya operates Codeswitch Studio</h1>
+        <div className="headshot"> </div>
       </Col>
+     
+      
+      
+  
+      
     </Row>
     <Row>
       <Col size="md-9">

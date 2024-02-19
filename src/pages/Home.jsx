@@ -5,9 +5,9 @@ import Hero from '../components/Hero';
 function Home() {
   return (
     <div>
-      <Hero backgroundImage="https://codeswitchstudio.com/indicodes/images/hackamudra5.png">
+      <Hero backgroundImage="https://images.unsplash.com/photo-1630086444439-97f3e422cc13">
         <h1 id='biggest'>Codeswitch Studio</h1>
-        <h2 id='bigger'>Projects concocted with care</h2>
+        <h2 id='bigger'>Digital projects concocted with care</h2>
       </Hero>
     <section className="container py-9 lg:py-36">
       <div className="row row-cols-2 row-cols-lg-3">

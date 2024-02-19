@@ -25,6 +25,16 @@ function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink
+                to="/discover"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Projects
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
                 to="/about"
                 end
                 className={({ isActive }) =>
@@ -36,12 +46,12 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <NavLink
-                to="/discover"
+                to="/contact"
                 className={({ isActive }) =>
                   isActive ? 'nav-link active' : 'nav-link'
                 }
               >
-                Projects
+                Download CV
               </NavLink>
             </li>
             <li className="nav-item">
@@ -52,16 +62,6 @@ function Navbar() {
                 }
               >
                 Contact
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Download CV
               </NavLink>
             </li>
           </ul>

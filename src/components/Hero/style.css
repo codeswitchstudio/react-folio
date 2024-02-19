@@ -1,7 +1,10 @@
+
+
+
 .hero {
   height: 640px;
   background-size: cover;
-  background-position: left;
+  background-position: bottom;
   background-repeat: no-repeat;
   position: relative;
   margin-bottom: 0;
@@ -31,9 +34,10 @@
 }
 
 .hero h1 {
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 700;
-  padding-top: 90px;
+  padding-top: 130px;
+  font-family: "Alegreya", serif;
   
   
 }
@@ -41,9 +45,39 @@
 .hero h2 {
 
   font-weight: 300;
+  font-size: 22px;
 
   
   
+}
+
+
+@media screen and (max-width: 550px) {
+  .hero h1 {
+    font-size: 30px;
+    padding-top: 300px;
+  }
+}
+
+
+@media screen and (max-width: 1437px) {
+  .hero h1 {
+    font-size: 55px;
+    padding-top: 250px;
+  }
+  .hero h2 {
+    font-size: 22px;
+}
+}
+
+@media screen and (max-width: 1155px) {
+  .hero h1 {
+    font-size: 45px;
+    padding-top: 250px;
+  }
+  .hero h2 {
+    font-size: 20px;
+}
 }
 
 
@@ -55,4 +89,15 @@
 .badge {
   padding: 10px;
   text-align: center;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  /* margin-left: 30%-150px; */
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://codeswitchstudio.github.io/bootstrap-portfolio//images/rainbowMOSH.gif");
 }

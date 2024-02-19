@@ -1,67 +1,13 @@
+body {
+  font-family: "Alegreya", serif;
+}
+
+
 nav.navbar.navbar-default {
   /* background-color: rgb(25, 18, 31); */
   background-image: url(https://codeswitchstudio.com/indicodes/images/hackamudra5.png);
   color: white;
   margin-bottom: 0;
+  font-family: "Alegreya", serif;
   
 }
-/* 
-.navbar-brand {
-  color: pink;
-}
-
-.nav-item {
-  color: white;
-}
-
-
-.nav-item:active {
-  color: rgb(192, 237, 255);
-}
-
-.nav-brand:active {
-  color: pink;
-}
-
-.nav-brand:visited {
-  color: pink;
-}
-
-
-.nav-item:visited {
-  color: white;
-}
-
-.nav-brand:hover {
-  color: rgb(255, 255, 255);
-}
-
-.nav-item:hover {
-  color: rgb(255, 255, 255);
-}
-
-
-
-a:active {
-  color: rgb(192, 237, 255);
-}
-
-a:link {
-  color: white;
-}
-
-a:visited {
-  color: pink;
-}
-
-a:hover {
-  color: rgb(255, 255, 255);
-} */
-
-/* 
-.link {
-  color: #FFF;
-}
-.link:hover {
-   color: pink;
-} */
