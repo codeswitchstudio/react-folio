@@ -2,7 +2,6 @@ import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
 
-
 function Contact() {
   return (
     <Container style={{ marginTop: 30 }}>

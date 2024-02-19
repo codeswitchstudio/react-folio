@@ -44,16 +44,8 @@ function Navbar() {
                 About
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink
-                to="/contact"
-                className={({ isActive }) =>
-                  isActive ? 'nav-link active' : 'nav-link'
-                }
-              >
-                Download CV
-              </NavLink>
-            </li>
+
+
             <li className="nav-item">
               <NavLink
                 to="/contact"
