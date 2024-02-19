@@ -14,7 +14,17 @@ function Contact() {
     <Row>
       <Col size="md-9">
         <p>
-        I am a multi-disciplinary designer with a background in media, communication and culture. I enjoy bringing research to life visually and am experienced in crafting and enhancing content for various audiences and platforms; turning complex information into engaging and accessible stories and explaining technical issues to non-technical people. 
+        * [ ] Contact:
+  * [ ] Must have contact information
+  * [ ] Have a contact form for handling events
+        ### Updated Social Media Presence
+
+#### LinkedIn
+
+* Make sure to update your LinkedIn Profile with the new skills you've acquired since the last time it was updated.
+* If you do not have a LinkedIn profile, please create one.
+
+#### GitHub
 </p><p>
 In my journey so far, I’ve had the pleasure of working with some amazing people: academics and policymakers in the UK; grassroots-based feminists and community radio broadcasters in the global south; teenagers learning how to write for the web; deaf students needing training in Photoshop; musicians, DJs, and artists all eager to share their valuable insights. 
 </p><p>

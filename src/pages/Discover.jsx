@@ -11,7 +11,7 @@ function Discover() {
     <div className="row"id="work">
         {/* <!-- Card 1 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div className="card">
+          <div className="card bg-dark">
             <a href="https://code0em.github.io/lingua-sonnet/">
             <div className="card-img-top-01"></div>  
             </a>
@@ -27,7 +27,7 @@ function Discover() {
 
         {/* <!-- Card 2 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div className="card">
+          <div className="card bg-dark">
             <a href="https://codeswitchstudio.github.io/horiseon-code-refactor/">
             <div className="card-img-top-02"></div></a>
             <div className="card-body">
@@ -43,7 +43,7 @@ function Discover() {
 
         <!-- Card 3 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div className="card">
+          <div className="card bg-dark">
             <a href="https://codeswitchstudio.com/pep/">
             <div className="card-img-top-03"></div></a>
             <div className="card-body">
@@ -58,7 +58,7 @@ function Discover() {
 
         <!-- Card 4 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div className="card">
+          <div className="card bg-dark">
             <a href="https://codeswitchstudio.com/cajipe-endaya"> 
             <div className="card-img-top-04"></div></a>
             <div className="card-body">
@@ -73,7 +73,7 @@ function Discover() {
 
       <!-- Card 5 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-          <div className="card">
+          <div className="card bg-dark">
             <a href="https://www.facebook.com/DevelopmentPraxis"> 
             <div className="card-img-top-05"></div></a>
             <div className="card-body">
@@ -89,7 +89,7 @@ function Discover() {
 
       <!-- Card 6 --> */}
       <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
-        <div className="card">
+        <div className="card bg-dark">
           <a href="https://thecodingtrain.com/showcase/author/indicodeswitch">
             <div className="card-img-top-06"></div></a>
           <div className="card-body">

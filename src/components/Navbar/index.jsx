@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-dark ">
       <div class="container-fluid">
         <Link className="navbar-brand" to="/">
-          Codeswitch Studio
+          Portfolio Home
         </Link>
         <button
           class="navbar-toggler"
@@ -52,6 +52,16 @@ function Navbar() {
                 }
               >
                 Contact
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Download CV
               </NavLink>
             </li>
           </ul>
