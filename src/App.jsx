@@ -19,6 +19,7 @@ function App() {
             <Route path="/about" element={<About/>} />
             <Route path="/discover" element={<Discover/>} />
             <Route path="/contact" element={<Contact/>} />
+            <Route path="/404" element={<Custom404/>} />
           </Routes>
         </Wrapper>
         <Footer />
