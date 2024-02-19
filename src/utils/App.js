@@ -8,7 +8,7 @@ const App = () => {
   {/* --- handleOnSubmit method --- */}
 
   return (
-    <div className=”App”>
+    <div className='App'>
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id='form-input-control-email'
