@@ -1,5 +1,5 @@
 import React from 'react';
-import Container from '../components/Container';
+import projects from '../../projects.json';
 import '../components/Card/style.css';
 import ProjectCard from '../components/Project/index.jsx';
 
@@ -7,7 +7,9 @@ const ProjectGallery = () => {
   return {
     <>
       <h1>These are my Projects</h1>
-      {projects.map(project =>{})}
+      {projects.map(project =>(
+        <Project key = {project.id} project={project} />
+      ))}
     </>
   }
 }

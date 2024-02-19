@@ -1,6 +1,6 @@
 import Container from '../components/Container';
 import Row from '../components/Row';
-import Col from '../components/Col';
+// import Col from '../components/Col';
 import '../components/Hero/style.css';
 
 function Contact() {
