@@ -2,20 +2,19 @@ import React from 'react';
 import Container from '../components/Container';
 import Row from '../components/Row';
 import Col from '../components/Col';
+import "../components/Hero/style.css";
+
 
 function About() {
   return (
     <Container style={{ marginTop: 30 }}>
+    <Row><Col size="md-3">
+      <div className="headshot"></div></Col></Row>
     <Row>
       <Col size="md-9">
-        <h1>Indira Endaya operates Codeswitch Studio</h1>
-        <div className="headshot"> </div>
+        <h1>Indira Endaya operates Codeswitch Studio</h1>   
       </Col>
      
-      
-      
-  
-      
     </Row>
     <Row>
       <Col size="md-9">

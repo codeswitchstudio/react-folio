@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Indira Endaya 2024</span>
+      <span><a href="https://creativecommons.org/licenses/by-nc/4.0/">🄯</a> Indira Endaya 2024</span>
     </footer>
   );
 }

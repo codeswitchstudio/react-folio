@@ -1,4 +1,6 @@
-
+body {
+  font-family: "Alegreya", serif;
+}
 
 
 .hero {
@@ -80,15 +82,17 @@
 }
 }
 
-
 .row {
   margin-bottom: 50px;
 }
 
 
-.badge {
-  padding: 10px;
+.col {
+  padding-bottom: 20px;
   text-align: center;
+  color: paleturquoise;
+  font-family: monospace;
+  font-size: smaller;
 }
 
 .headshot {
