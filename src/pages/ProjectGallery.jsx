@@ -1,18 +1,20 @@
-import React from 'react';
+// import React from 'react';
 import projects from '../../projects.json';
 import '../components/Card/style.css';
 import ProjectCard from '../components/Project/index.jsx';
+import { Container } from 'react-bootstrap';
 
-const ProjectGallery = () => {
-  return {
-    <>
+
+function ProjectGallery() {
+  return (function Contact() {
+    <Container>
       <h1>These are my Projects</h1>
       {projects.map(project =>(
-        <Project key = {project.id} project={project} />
+        <ProjectCard key = {project.id} project={project} />
       ))}
-    </>
+    </Container>
   }
-}
+)}
 
 export default ProjectGallery;
 

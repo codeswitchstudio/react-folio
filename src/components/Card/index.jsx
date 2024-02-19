@@ -1,6 +1,7 @@
-import { use state } from 'react';
+// import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+
 
 function ProjectCard({ project }) {
   return (
@@ -11,7 +12,7 @@ function ProjectCard({ project }) {
         <Card.Text>
           {project.text}
         </Card.Text>
-        < href='{project.url}'><Button variant="primary">Go</Button></a>
+        <a href='{project.url}'><Button variant="primary">Go</Button></a>
       </Card.Body>
     </Card>
   );
