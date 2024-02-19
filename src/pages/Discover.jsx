@@ -33,7 +33,7 @@ function Discover() {
             <div className="card-body">
               <h5 className="card-title">Horiseon</h5>
               <p className="card-text">
-                My first bootcamp project done by refactoring code to make a website that is more accessible.
+                My first bootcamp project. This was done by refactoring code to make a website that meets accessibility standards using semantic HTML elements, a logical structure, descriptive alt texts.
               </p>
               
             </div>
@@ -49,7 +49,7 @@ function Discover() {
             <div className="card-body">
               <h5 className="card-title">Pep Manalang, artist</h5>
               <p className="card-text">
-                A wordpress site for an abstract artist based in Fairbanks, Alaska 
+                A landing page for an abstract artist based in Fairbanks, Alaska. Made with Wordpress. This was done back in the day. as in before the bootcamp happened. 
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ function Discover() {
             <div className="card-body">
               <h5 className="card-title">Cajipe Endaya, landing page</h5>
               <p className="card-text">
-                Landing page includes a CV, Press coverage page, and instagram embedding for the gallery.
+                Landing page includes a CV, Press coverage page, and instagram embedding for the gallery. Made with code learned from SuperHi.
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ function Discover() {
           <div className="card-body">
             <h5 className="card-title">Creative Coding</h5>
             <p className="card-text">
-            Experimental projects made from coding along with Dan Schiffman of The Coding Train's .
+            Experimental projects made from coding along with Dan Shiffman of The Coding Train. Also featured in his passenger showcase.
             </p>
           </div>
         </div>
