@@ -1,51 +1,44 @@
 [
   {
-    "id": 1,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
+    "id": 0,
+    "title": "Lingua Sonnet",
+    "text": "LinguaSonnet is a web application which seamlessly combines word learning with poetry, allowing users to access word definitions and examples of the word in a poem.",
+    "img": "https://code0em.github.io/lingua-sonnet/assets/img/book-splash.png",
+    "url": "https://code0em.github.io/lingua-sonnet/"
   },
   {
+    "id": 1,
+    "title": "Horiseon SEO",
+    "text": "My first bootcamp project. This was done by refactoring code to make a website that meets accessibility standards using semantic HTML elements, a logical structure, descriptive alt texts.",
+    "img": "https://codeswitchstudio.github.io/bootstrap-portfolio/images/horiseon.jpg",
+    "url": "https://codeswitchstudio.github.io/horiseon-code-refactor"
+  },  
+  {
     "id": 2,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
+    "title": "Pep Manalang, artist site",
+    "text": "A landing page for an abstract artist based in Fairbanks, Alaska. Made with Wordpress. This was done back in the day. as in before the bootcamp happened.",
+    "img": "https://codeswitchstudio.github.io/bootstrap-portfolio/images/PepMan.png",
+    "url": "https://pepmanalang.net/"
   },  
   {
     "id": 3,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
-  },  
+    "title": "Cajipe Endaya, landing page",
+    "text": "Landing page includes a CV, Press coverage page, and instagram embedding for the gallery. Made with code learned from SuperHi.",
+    "img": "https://codeswitchstudio.github.io/bootstrap-portfolio/images/ICEweb.png",
+    "url": "https://codeswitchstudio.com/cajipe-endaya"
+  },   
   {
     "id": 4,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
-  },  
+    "title": "DevPrax Brand Assets",
+    "text": "Development Praxis visual identity and assets featuring a vivid and clean logo to stand out in a sea of of social media posts.",
+    "img": "https://codeswitchstudio.github.io/bootstrap-portfolio/images/DevPrax.png",
+    "url": "https://www.facebook.com/DevelopmentPraxis"
+  },
   {
     "id": 5,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
-  },  
-  {
-    "id": 6,
-    "title": "Project 1",
-    "description": ,
-    "image": "",
-    "github": "link to repo",
-    "deployed": 
+    "title": "Creative Coding",
+    "text": "Experimental projects made from coding along with Dan Shiffman of The Coding Train. Also featured in his passenger showcase.",
+    "img": "https://codeswitchstudio.github.io/bootstrap-portfolio/images/covid-dance.gif",
+    "url": "https://thecodingtrain.com/showcase/author/indicodeswitch"
   }
-  
 ]
