@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  },
+  {
+    "id": 2,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  },  
+  {
+    "id": 3,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  },  
+  {
+    "id": 4,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  },  
+  {
+    "id": 5,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  },  
+  {
+    "id": 6,
+    "title": "Project 1",
+    "description": ,
+    "image": "",
+    "github": "link to repo",
+    "deployed": 
+  }
+  
+]
