@@ -9,6 +9,7 @@ function Discover() {
     <div className="container-fluid content">
       {/* <h2 className="sectionHeading">Here's my work</h2>  */}
     <row><h1>Here are some of my Projects</h1></row>  
+    <p>You can click the image on a card to jump to that project.</p>
     <div className="row"id="work">
         {/* <!-- Card 1 --> */}
         <div className="cardContainer col-lg-4 col-md-4 col-sm-12">
