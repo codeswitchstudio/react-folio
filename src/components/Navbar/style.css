@@ -2,12 +2,27 @@ body {
   font-family: "Alegreya", serif;
 }
 
+.navbar {
+  font-family: Alegreya, serif;
+  font-size:x-large;
+}
 
-nav.navbar.navbar-default {
+.navbar:hover {
+  color: orange;
+}
+
+
+
+#brand {
+  color:aqua;
+}
+
+
+/* nav.navbar.navbar-default { */
   /* background-color: rgb(25, 18, 31); */
-  background-image: url(https://codeswitchstudio.com/indicodes/images/hackamudra5.png);
+  /* background-image: url(https://codeswitchstudio.com/indicodes/images/hackamudra5.png);
   color: white;
   margin-bottom: 0;
   font-family: "Alegreya", serif;
   
-}
+} */

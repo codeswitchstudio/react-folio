@@ -101,8 +101,8 @@ body {
 
 
 #about,
-#contact-h1
- {
+#contact-h1,
+#skills {
   font-family: "Alegreya", serif;
 }
 
@@ -110,3 +110,18 @@ body {
   padding-top: 30px;
 }
 
+
+.cv:any-link {
+  color: aquamarine;
+  text-decoration: underline;
+}
+
+
+.cv:hover {
+  color: orange;
+
+}
+
+#skills {
+  padding-top: 60px;
+}
