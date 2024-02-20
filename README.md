@@ -18,11 +18,12 @@
 
 ## Description
 
-A portfolio site built with React and the latest technologies. 
+A portfolio site built with React and the latest technologies. Deployed here at [GiHub pages](https://codeswitchstudio.github.io/react-folio).
 
 ---
 
 **User Story** 
+
 As a developer I want to generate a webpage that displays my portfolio so that a user gets quick access to my profile, my skills, my projects and be able to contac me for work.
 
 ---
