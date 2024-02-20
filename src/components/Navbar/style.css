@@ -1,17 +1,9 @@
-body {
-  font-family: "Alegreya", serif;
-}
+
 
 .navbar {
-  font-family: Alegreya, serif;
+
   font-size:x-large;
 }
-
-.navbar:hover {
-  color: orange;
-}
-
-
 
 #brand {
   color:aqua;

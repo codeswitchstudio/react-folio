@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import '../components/Hero/style.css';
 import '../utils/App.css';
 import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
+
 
 export const Contact = () => {
   const form = useRef();
