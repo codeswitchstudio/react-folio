@@ -20,6 +20,16 @@
     width: 100%;
   }
 
+#btn {
+  width: 75px;
+  margin-top: 10px;
+  border-radius: 50px;
+  border: none;
+  background-color: cyan;
+  margin-bottom: 10px;
+}
+
+
 #name,
 #email,
 #message,
@@ -51,9 +61,11 @@ label
 
 }
 
-#button hover { 
+#btn:hover { 
   background-color: orange; 
   text-decoration: none;
+  border: none;
+ 
 } 
 
 

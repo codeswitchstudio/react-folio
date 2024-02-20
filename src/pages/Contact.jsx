@@ -46,8 +46,8 @@ export const Contact = () => {
           <label id='message'>Message</label><br />
           <textarea id='text' name='message' /><br />
           </row>
-          {/* <input type='submit' value='Send' /><br /> */}
-          <Button id="button">Send</Button>
+          <input type='submit' id='btn' value='Send' /><br />
+          {/* <Button id="button">Send</Button> */}
         </form>
       </div>
     </container>
