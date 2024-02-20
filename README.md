@@ -1,4 +1,4 @@
-#  Team Profile Maker
+#  Codeswitch Studio React-folio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -31,7 +31,7 @@ As a team manager I want to generate a webpage that displays my team's basic inf
 
 **Visuals**
 
-  - Screenshots
+
 
 **Node Screenshot**
 ![Node screenshot](./assets/Screenshot-node.png)
