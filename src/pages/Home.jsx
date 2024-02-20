@@ -9,7 +9,7 @@ function Home() {
     <div>
       <Hero backgroundImage="https://images.unsplash.com/photo-1630086444439-97f3e422cc13">
         <h1 id='biggest'>Codeswitch Studio</h1>
-        <h2 id='bigger'>Digital projects customised with care</h2>
+        <h2 id='bigger'>Your digital projects. Customised with care</h2>
       </Hero>
     <section className="container py-9 lg:py-36">
       <div className="row">

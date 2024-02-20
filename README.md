@@ -6,86 +6,66 @@
 ## Contents
 
 1. [Description](#description) 
-2. [Installation](#installation)
-2. [Usage Information](#usage)
-3. [License](#license)
-4. [Contributing](#contributing)
-5. [Tests](#tests)
-6. [Acknowledgements](#acknowledgements)
-7. [Questions](#questions)
+2. [Screenshots](#screenshots)
+3. [Build](#build)
+4. [Usage Information](#usage)
+5. [License](#license)
+6. [Contributing](#contributing)
+7. [Acknowledgements](#acknowledgements)
+8. [Questions](#questions)
 
 ---
-## Description 
+
+## Description
 
 A portfolio site built with React and the latest technologies. 
 
 ---
 
 **User Story** 
+As a developer I want to generate a webpage that displays my portfolio so that a user gets quick access to my profile, my skills, my projects and be able to contac me for work.
 
+---
 
-As a team manager I want to generate a webpage that displays my team's basic info so that a user gets quick access to their emails and GitHub profiles.
+## Screenshots
+
+![Home page](./src/images/landing.png)
+![Responsive home page](./src/images/landing-mobile.png)
+![Project Gallery page](./src/images/project-gallery.png)
+![About page](./src/images/about.png)
+![Contact page](./src/images/contact.png)
 
 
 ---
 
-**Visuals**
+## Build
 
+This application uses the following technologies:
 
+ * [React Router](https://reactrouter.com/en/main)for the navigation 
+ * [Vite](https://vitejs.dev/) development environment
+ * [EmailJs](https://www.emailjs.com/docs/examples/reactjs/) for the contact form
+ * Node.js - a JavaScript runtime environment that executes code outside of a web browser.
+* NPM
 
-**Node Screenshot**
-![Node screenshot](./assets/Screenshot-node.png)
-
-**Browser Screenshot**
-![Browser screenshot features three boxes listing employee names, titles, and other key info.](./assets/Screenshot-browser.png)
-
-**Testing Screenshot**
-![Tests](./assets/Screenshot-tests.png)
-
-## Installation
-
-To install this application, you will need to have Node.js installed on your computer along with the Inquirer and fs packages. You can download Node.js from https://nodejs
-
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
-
-To install the necessary dependencies for this application, run `npm i` in your terminal from the root directory of the project folder. This will install all required packages listed in the package.json file.
-
-This application uses [Inquirer](https://www.npmjs.com/package/inquirer)for collecting input from the user and [Jest](https://jestjs.io/) for running the unit tests. 
-
-Please check the [Inquirer documentation](https://www.npmjs.com/package/inquirer#installation) and [JEST Getting Started page](https://jestjs.io/docs/getting-started) for specific installation details. 
-  
+---
 
 
 ## Usage
 
-When a user starts the application then they are prompted to enter the **team manager**’s:
-- Name
-- Employee ID
-- Email address
-- Office number
-
-When a user enters those requirements then the user is presented with a menu with the option to:
-- Add an engineer
-- Add an intern 
-- Finish building the team
-
-When a user selects the **engineer** option then a user is prompted to enter the following and then the user is taken back to the menu:
-- Engineer's Name
-- ID
-- Email
-- GitHub username
-
-When a user selects the intern option then a user is prompted to enter the following and then the user is taken back to the menu:
-- Intern’s name
-- ID
-- Email
-- School
-
-And finally, qhen a user decides to finish building their team then they exit the application, and the HTML is generated.
+* Portfolio contains the following information for the user:
+  * [ ] Developer name
+  * [ ] Links to developer's:
+    * [ ] GitHub Profile
+    * [ ] LinkedIn Page
+    * [ ] Email Address
+    * [ ] Phone Number - (optional)
+    * [ ] PDF version of Dev's resume containing up-to-date projects and professional experience
+    * [ ] A list of projects (Challenges or Projects). For each project, make sure you have the following:
+      * [ ] Project title
+      * [ ] Link to the deployed version
+      * [ ] Link to the GitHub repository
+      * [ ] GIF or screenshot of the deployed application
 
 ---
 
@@ -95,7 +75,6 @@ And finally, qhen a user decides to finish building their team then they exit th
 
   MIT
 
-
 ---
 
 ## Contributing
@@ -104,42 +83,21 @@ To contribute to this application, please follow the steps found on the [GitHub 
 
 ---
 
-## Tests
-
--  All tests passed using the [Jest package](https://www.npmjs.com/package/jest).
-
-Install Jest for testing:
-
-```bash
-npm i jest
-```
-
-Add the following code in the package.json file 
-
-```bash
-"test": "jest"
-```
-
-To run tests, use the following command:
-
-```bash
-npm test
-```
-
----
-
 ## Acknowledgements
 
- - [Inquirer Package](https://www.npmjs.com/package/inquirer)
- - [JEST](https://www.npmjs.com/package/jest)
- - [Node FS documentation](https://nodejs.org/api/fs.html)
- - [Stack Overflow](https://stackoverflow.com/questions/65189877/how-can-i-validate-that-a-user-input-their-email-when-using-inquirer-npm)
+
+ - Thanks to our Instructor Laura Cole for the video on how to deploy react pages.
+ - hero image photo by [Rishabh Dharmani on Unsplash](https://unsplash.com/photos/man-in-black-suit-jacket-raising-his-right-hand-IvfAs3Qk64M)
+ - [Alexandre Sanlim's Badges for README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+ - [Stack Overflow](https://stackoverflow.com/questions/64468843/netlify-deployment-failed-during-stage-building-site-build-script-returned-n)
  - [ChatGPT](https://chat.openai.com/)
  - [W3 Schools](https://www.w3schools.com/js/js_classes.asp)
- - [Google Fonts Alegreya](https://fonts.google.com/specimen/Alegreya)
+ - [Alegreya Google Font ](https://fonts.google.com/specimen/Alegreya)
  - [Bootstrap](https://getbootstrap.com/)
  - [Font Awesome Icons](https://fontawesome.com/icons)
- - [Magic Pattern Design Tools](https://www.magicpattern.design/tools)
+
+
+---
 
 ## Questions
   For any further questions please contact:
