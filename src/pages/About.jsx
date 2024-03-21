@@ -28,7 +28,6 @@ function About() {
     </Row>
     <Row>
       <p>Find me on <a className='cv' href='https://www.linkedin.com/in/indira-endaya-3a02088/'>LinkedIn</a>.</p>
-      <p>Download my CV (<a className='cv'  href='https://drive.google.com/file/d/1pXmDNNoaaO458V1Ph4gR7sPUC7PvsV7I/view?usp=sharing'>PDF</a>).</p>
       <p>Check out my recent <a className='cv' href='https://tinyurl.com/5f4h6kmf'>graphic design work</a>.</p>
 
 
