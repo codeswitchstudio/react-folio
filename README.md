@@ -24,7 +24,7 @@ A portfolio site built with React and the latest technologies. Deployed here at 
 
 **User Story** 
 
-As a developer I want to generate a webpage that displays my portfolio so that a user gets quick access to my profile, my skills, my projects and be able to contac me for work.
+As a developer I want to generate a webpage that displays my portfolio so that a user gets quick access to my profile, my skills, my projects and be able to contacT me for work.
 
 ---
 
